@@ -1,0 +1,3 @@
+mkdocs-material
+mkdocs-i18n
+mkdocs-glightbox
