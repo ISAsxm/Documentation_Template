@@ -10,9 +10,6 @@ Please refer to the official documentation of [mkdocs-material](https://squidfun
 
 ---
 
-{% markdown_include.include 'index.fr.md' %}
-
-
 
 ## :material-information-outline: Admonitions
 
@@ -81,8 +78,7 @@ def bubble_sort(items):
         return self # (1)
     ```
 
-    1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
-        text__, images, ... basically anything that can be written in Markdown.
+    1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted text__, images, ... basically anything that can be written in Markdown.
 
 
 ``` py title="example with annotation"
@@ -90,8 +86,7 @@ def my_method(self):
     return self # (1)
 ```
 
-1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
-    text__, images, ... basically anything that can be written in Markdown.
+1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted text__, images, ... basically anything that can be written in Markdown.
 
 
 ```
