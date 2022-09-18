@@ -167,10 +167,73 @@
         Accueil
       </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../about.en/">
-        About (English)
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          À propos
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        À propos
       </a>
+<nav aria-label="Table des matières" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#admonitions">
+     Admonitions
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#buttons">
+     Buttons
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#code-blocks">
+     Code blocks
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#content-tabs">
+     Content tabs
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#diagrams">
+     Diagrams
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#formatting">
+     Formatting
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#icons-emojis">
+     Icons, Emojis
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#images">
+     Images
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#lists">
+     Lists
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#progress-bar">
+     Progress bar
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -468,7 +531,7 @@ Nullam dignissim ultrices urna non auctor.</p>
 <li class="task-list-item"><label class="task-list-control"><input checked="" disabled="" type="checkbox"><span class="task-list-indicator"></span></input></label> Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
 <li class="task-list-item"><label class="task-list-control"><input disabled="" type="checkbox"><span class="task-list-indicator"></span></input></label> Vestibulum convallis sit amet nisi a tincidunt<ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input checked="" disabled="" type="checkbox"><span class="task-list-indicator"></span></input></label> In hac habitasse platea dictumst</li>
-<li class="task-list-item"><label class="task-list-control"><input checked="" disabled="" type="checkbox"/><span class="task-list-indicator"></span></label> In scelerisque nibh non dolor mollis congue sed et metus</li>
+<li class="task-list-item"><label class="task-list-control"><input checked="" disabled="" type="checkbox"><span class="task-list-indicator"></span></input></label> In scelerisque nibh non dolor mollis congue sed et metus</li>
 <li class="task-list-item"><label class="task-list-control"><input disabled="" type="checkbox"/><span class="task-list-indicator"></span></label> Praesent sed risus massa</li>
 </ul>
 </li>
@@ -581,6 +644,21 @@ Nullam dignissim ultrices urna non auctor.</p>
           </a>
 </main>
 <footer class="md-footer">
+<nav aria-label="Pied de page" class="md-footer__inner md-grid">
+<a aria-label="Précédent: Accueil" class="md-footer__link md-footer__link--prev" href="../index.fr/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Précédent
+              </span>
+              Accueil
+            </div>
+</div>
+</a>
+</nav>
 <div class="md-footer-meta md-typeset">
 <div class="md-footer-meta__inner md-grid">
 <div class="md-copyright">
